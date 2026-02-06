@@ -1,0 +1,19 @@
+| Order ID     | Order Date | Ship Date  | Ship Mode      | Customer Name | Segment     | Country | City        | State | Region  | Category        | Sub-Category | Product Name   | Sales | Quantity | Discount | Profit |
+| ------------ | ---------- | ---------- | -------------- | ------------- | ----------- | ------- | ----------- | ----- | ------- | --------------- | ------------ | -------------- | ----- | -------- | -------- | ------ |
+| CA-2019-1001 | 01-01-2019 | 03-01-2019 | Second Class   | John Smith    | Consumer    | USA     | New York    | NY    | East    | Technology      | Phones       | iPhone 13      | 900   | 1        | 0.10     | 150    |
+| CA-2019-1002 | 02-01-2019 | 05-01-2019 | Standard Class | Maria Lopez   | Corporate   | USA     | Chicago     | IL    | Central | Furniture       | Chairs       | Office Chair   | 300   | 2        | 0.20     | 40     |
+| CA-2019-1003 | 04-01-2019 | 07-01-2019 | First Class    | Ahmed Khan    | Home Office | USA     | Dallas      | TX    | South   | Office Supplies | Binders      | Binder Set     | 50    | 5        | 0.00     | 20     |
+| CA-2019-1004 | 05-01-2019 | 09-01-2019 | Standard Class | Li Wei        | Consumer    | USA     | Los Angeles | CA    | West    | Technology      | Accessories  | Wireless Mouse | 80    | 2        | 0.05     | 18     |
+| CA-2019-1005 | 06-01-2019 | 08-01-2019 | Second Class   | Priya Sharma  | Corporate   | USA     | Seattle     | WA    | West    | Furniture       | Tables       | Study Table    | 450   | 1        | 0.15     | 60     |
+
+--column meaning--
+| Column                | Use in Analysis           |
+| --------------------- | ------------------------- |
+| Sales                 | Total revenue             |
+| Profit                | Earnings after cost       |
+| Discount              | Helps analyze margin loss |
+| Quantity              | Volume sold               |
+| Category/Sub-Category | Product performance       |
+| Region/State/City     | Geographic analysis       |
+| Segment               | Customer type             |
+| Order Date            | Trend over time           |
