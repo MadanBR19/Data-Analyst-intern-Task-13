@@ -1,5 +1,59 @@
+--KPI meansures--
 Total Sales = SUM(Sales[Sales])
 
 Total Profit = SUM(Sales[Profit])
 
 Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+--KPI cards--
+| KPI              | Value           |
+| ---------------- | --------------- |
+| 💰 Total Sales   | [Total Sales]   |
+| 📈 Total Profit  | [Total Profit]  |
+| 📊 Profit Margin | [Profit Margin] |
+--Sales trend chart--
+Line Chart
+
+Axis → Order Date
+
+Values → Total Sale
+
+--Category breakdown--
+Bar Chart
+
+Axis → Category
+
+Values → Total Sale
+
+--Region performance--
+Map or Bar Chart
+
+Location → Region
+
+Size/Value → Total Sales or Profit
+
+--Top 10 products--
+Table Visual
+
+Product Name
+
+Total Sales
+
+Total Profit
+
+--sSlicers--
+Add slicers for:
+
+Region
+
+Category
+
+Order Date
+
+--Insights--
+Key Insights:
+
+Sales peak during Q4, indicating strong seasonal demand.
+
+Technology category generates highest profit margin.
+
+West region outperforms others in total revenue.
